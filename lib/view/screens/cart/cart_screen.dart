@@ -1,16 +1,3 @@
-import 'package:ecommerce_app/routes/routes.dart';
-
-import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:get/get.dart';
-
-import '../../../logic/controllers/cart_controllers.dart';
-import '../../../services/cart_services.dart';
-import '../../../utils/sharPreferenceUtils .dart';
-import '../../widgets/auth/auth_button.dart';
-import '../../widgets/cart/appBarCart.dart';
-import '../../widgets/cart/customCard.dart';
-import '../../widgets/cart/listViewItem.dart';
 
 class CartScreen extends StatelessWidget {
   CartScreen({Key? key}) : super(key: key);
